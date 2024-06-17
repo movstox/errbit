@@ -376,9 +376,9 @@ Security/JSONLoad:
 # Offense count: 1
 # Configuration parameters: EnforcedStyle.
 # SupportedStyles: inline, group
-Style/AccessModifierDeclarations:
-  Exclude:
-    - 'lib/overrides/hoptoad_notifier/hoptoad_notifier.rb'
+# Style/AccessModifierDeclarations:
+#   Exclude:
+#     - 'lib/overrides/hoptoad_notifier/hoptoad_notifier.rb'
 
 # Offense count: 2
 # Cop supports --auto-correct.

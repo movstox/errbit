@@ -1,3 +1,5 @@
+require 'errbit/version'
+
 class AppsController < ApplicationController
   include ProblemsSearcher
 

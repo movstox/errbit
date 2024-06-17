@@ -1,3 +1,5 @@
+module Recurse
+end
 class Hash
   # Apply a block to hash, and recursively apply that block
   # to each sub-hash or +types+.
