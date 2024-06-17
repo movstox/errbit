@@ -1,4 +1,4 @@
-require 'hoptoad_notifier'
+# require 'hoptoad_notifier'
 
 ##
 # Processes a new error report.
@@ -29,7 +29,7 @@ class ErrorReport
 
   def initialize(xml_or_attributes)
     @attributes = xml_or_attributes
-    @attributes = Hoptoad.parse_xml!(@attributes) if @attributes.is_a? String
+    # @attributes = Hoptoad.parse_xml!(@attributes) if @attributes.is_a? String
     @attributes = @attributes.with_indifferent_access
     @attributes.each { |k, v| instance_variable_set(:"@#{k}", v) }
   end
